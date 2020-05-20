@@ -1,0 +1,9 @@
+
+/*@font-face {
+    font-family: 'The name of the Font Family Here';
+    src: URL('font.ttf') format('truetype');
+  }*/
+  body{
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Italiana', serif;*/
+}
