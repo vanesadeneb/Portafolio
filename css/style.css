@@ -11,7 +11,7 @@
     padding: 2em;
 }
 #navbar a{
-    color: #175073;
+    color: #023059;
     font-size: 10px;
     letter-spacing: 0.4em;
     text-decoration: none;
@@ -28,6 +28,7 @@ main{
 }
 #introduction{
     color: #175073;
+    color: #025373;
     font-size: 36px;
     line-height: 55px;
     margin: 0;
@@ -39,11 +40,14 @@ main{
     text-decoration: underline;
 }
 #navbar-category-projects{
+    margin: 0 auto;
     margin-top: 6em;
+    width: 50%;
 }
 #navbar-category-projects li{
     display: inline;
     padding: 1em;
+    position: relative;
 }
 #navbar-category-projects li a{
     color: #609BBF;
@@ -52,8 +56,18 @@ main{
 }
 #navbar-category-projects li a:hover{
     color: #175073;
+    font-weight: bold;
+}
+#navbar-category-projects li a::before{
+    content: "";
+    width: 33px;
+    position: absolute;
+    bottom: 12px;
+}
+#navbar-category-projects li a:hover::before{
     border-bottom: 3px solid #7796F2;
     font-size: 700;
+    left: 15px;
 }
 #projects {
     display: grid;
