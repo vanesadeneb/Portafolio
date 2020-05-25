@@ -60,13 +60,12 @@ main{
 }
 #navbar-category-projects li a::before{
     content: "";
-    width: 33px;
+    width: 22px; 
     position: absolute;
     bottom: 12px;
-}
+}                     
 #navbar-category-projects li a:hover::before{
     border-bottom: 3px solid #7796F2;
-    font-size: 700;
     left: 15px;
 }
 #projects {
