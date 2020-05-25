@@ -12,8 +12,10 @@
     padding: 2em;
 }
 #navbar a{
+    color: black;
     font-size: 10px;
-    letter-spacing: 0.4em
+    letter-spacing: 0.4em;
+    text-decoration: none;
 }
 #logo{
     padding: 8em;
