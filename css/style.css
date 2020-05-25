@@ -1,7 +1,6 @@
 
   body{
     font-family: 'Montserrat', sans-serif;
-    /*font-family: 'Italiana', serif;*/
     text-align: center;
 }
 #navbar{
@@ -12,10 +11,11 @@
     padding: 2em;
 }
 #navbar a{
-    color: black;
+    color: #175073;
     font-size: 10px;
     letter-spacing: 0.4em;
     text-decoration: none;
+    font-weight: bold;
 }
 #logo{
     padding: 8em;
@@ -30,9 +30,10 @@ main{
     color: #175073;
     font-size: 36px;
     line-height: 55px;
+    margin: 0;
 }
 #more{
-    color: #977EF2;
+    color: #7796F2;
     font-size: 14px;
     letter-spacing: 0.4em;
     text-decoration: underline;
@@ -51,6 +52,60 @@ main{
 }
 #navbar-category-projects li a:hover{
     color: #175073;
-    border-bottom: 3px solid #977EF2;
+    border-bottom: 3px solid #7796F2;
     font-size: 700;
+}
+#projects {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+}
+.imgContainer{
+    padding: 3em;
+    margin: 0;
+}
+.imgProject{
+    box-sizing: content-box;
+    width: 100%;
+}
+figcaption{
+    text-align: left;
+}
+.name-project{
+    color: #175073;
+    font-family: 'Italiana', serif;
+    font-size: 30px;
+    margin: 0;
+}
+.category{
+    color: #609BBF;
+    font-size: 14px;
+    margin: 10px 0;
+}
+footer{
+    background-color: rgb(247, 246, 246);
+    padding: 1em;
+}
+#footerMenu{
+    padding: 3em;
+}
+#footerMenu li{
+    display: inline;
+    padding: 2em;
+    font-weight: bold;
+}
+#footerMenu li a{
+    color: #175073;
+    font-size: 13px;
+    letter-spacing: 0.4em;
+    text-decoration: none;
+}
+.contact{
+    color: #609BBF;
+    font-family: 'Italiana', serif;
+    font-size: 20px;
+    margin: 5px;
+}   
+#logo-icon{
+    margin: 4em;
 }
