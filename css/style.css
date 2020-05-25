@@ -1,10 +1,54 @@
 
-/*@font-face {
-    font-family: 'The name of the Font Family Here';
-    src: URL('font.ttf') format('truetype');
-  }*/
   body{
     font-family: 'Montserrat', sans-serif;
     /*font-family: 'Italiana', serif;*/
     text-align: center;
+}
+#navbar{
+    border-bottom: 1px solid #6CD9D9;
+}
+#navbar ul li{
+    display: inline;
+    padding: 2em;
+}
+#navbar a{
+    font-size: 10px;
+    letter-spacing: 0.4em
+}
+#logo{
+    padding: 8em;
+
+}
+main{
+    width: 54%;
+    margin: 0 auto;
+    text-align: left;
+}
+#introduction{
+    color: #175073;
+    font-size: 36px;
+    line-height: 55px;
+}
+#more{
+    color: #977EF2;
+    font-size: 14px;
+    letter-spacing: 0.4em;
+    text-decoration: underline;
+}
+#navbar-category-projects{
+    margin-top: 6em;
+}
+#navbar-category-projects li{
+    display: inline;
+    padding: 1em;
+}
+#navbar-category-projects li a{
+    color: #609BBF;
+    font-size: 15px;
+    text-decoration: none;
+}
+#navbar-category-projects li a:hover{
+    color: #175073;
+    border-bottom: 3px solid #977EF2;
+    font-size: 700;
 }
