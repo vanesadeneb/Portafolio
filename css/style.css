@@ -69,16 +69,36 @@ main{
     left: 15px;
 }
 #projects {
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    grid-template-rows: 33.33% 33.33% 33.33%;
+    margin: 0 auto;
+    width: 98%;
+    height: 1192px;
+    position: relative;
 }
 .imgContainer{
-    padding: 3em;
+    float: left;
+    width: 31%;
     margin: 0;
 }
+#item1, #item2, #item3{
+    margin-left: 32px;
+    margin-top: 37px;
+}
+#item4{
+    position: absolute;
+    top: 469px;
+    left: 35px;
+}
+#item5{
+    position: absolute;
+    top: 631px;
+    left: 625px;
+}
+#item6{
+    position: absolute;
+    top: 623px;
+    left: 1215px;
+}
 .imgProject{
-    box-sizing: content-box;
     width: 100%;
 }
 figcaption{
@@ -99,6 +119,7 @@ figcaption{
 footer{
     background-color: rgb(247, 246, 246);
     padding: 1em;
+    clear: left;
 }
 #footerMenu{
     padding: 3em;
