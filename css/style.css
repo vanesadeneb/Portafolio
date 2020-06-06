@@ -78,6 +78,7 @@ main{
     float: left;
     width: 31%;
     margin: 0;
+    position: relative;
 }
 #item1, #item2, #item3{
     margin-left: 32px;
@@ -100,6 +101,19 @@ main{
 }
 .imgProject{
     width: 100%;
+}
+.seeMore{
+    align-items: center;
+    background-color: rgba(37, 12, 89, 0.8);
+    display: flex;
+    height: 100%;
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+.fa-plus{
+    color: white;
+    margin: 0 auto;
 }
 figcaption{
     text-align: left;
